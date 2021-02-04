@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	background: #242423;
+}
+
+.box {
+	height: 50px;
+	width: 50px;
+    animation: move 2s ease-in-out 1s infinite alternate both;
+}
+
+.box-red {
+	background: #e40303;
+    margin: 0;
+}
+
+.box-orange {
+	background: #ff8c00;
+    margin: 0;
+}
+
+.box-yellow {
+	background: #ffed00;
+    margin: 0;
+}
+
+.box-green {
+	background: #008026;
+    margin: 0;
+}
+
+.box-blue {
+	background: #004dff;
+    margin: 0;
+}
+
+.box-purple {
+    background: #750787;
+    margin: 0;
+}
+
+
+@keyframes move {
+    to {transform: translate(20vw, 50vh) scaleX(5) skewY(50deg);}
+}
